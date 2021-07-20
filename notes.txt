@@ -1,0 +1,74 @@
+## Flow
+
+roles.sh
+
+    - Create the execution role: role_name
+
+user provided path for function file 
+
+    - Contains the function
+
+menu.sh
+
+    menu:
+        opt1:
+            - create-function: path_of_zip, role_name, handler, runtime
+        opt2:
+            - invoke the function: input_json
+        opt3:
+            - update the function: new path_of_zip
+        opt4:
+            - delete the function: function_name
+        opt5:
+            - list the functions 
+        opt0:
+            exit
+
+    
+    helper:
+        - create zip file: path
+
+
+TODO:
+
+
+
+- Make a generic function so that (input: list, output: option from list with errors handled)
+    - After listing function, while deleting and updating choose the functions with numbers, handle the error case too
+    - After listing runtimes choose the runtimes with numbers, handle the error case too
+
+- Add options for choosing memory and cpu time while creating lambda function (and even for update?)
+
+- Provide options to choose from different sources:
+    - directory of python where the required filename must be in the root folder along with the requirements.txt
+        - Handle for no requirements.txt also
+    - node.js?? Check options for compilation
+    - Provide option for github for the above 2 cases
+    - Custom zip file
+        - add additional options for src: s3, github
+
+- Provide apigateway integration (or even addition triggers and destinations)
+
+- While invoking a function provide the option so that user can give a filepath as json payload
+
+
+
+- List the runtimes: maintain a deploy.json file which is written by dev
+                     timeout
+                     memory
+
+runs on local machine
+User creates a function with github:
+    create function with default handler?
+    create a codepipeline with src as github
+    create a code deploy for lambda with the current lambda
+    create a cloudwatch event for updating the lambda
+        take input from user for cronjob
+    initiate the first push
+
+
+
+Create a lambda function (without any config)
+    - aws lambda create-function --function-name testrepo --role arn:aws:iam::557151867487:role/MyLambdaRole --runtime python3.7 --zip-file "fileb://testlambda.zip" --handler test.f1
+
+Read a github repo (say python)

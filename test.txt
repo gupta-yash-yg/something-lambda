@@ -1,0 +1,8 @@
+[
+  "historical-data-function",
+  "mufun",
+  "sam-app-Scrapper3-mzQKIrxGvRTt",
+  "sam-app-Scrapper4-NDjwS011NbCT",
+  "sam-app-Scrapper2-twW8AZ3xUeNk",
+  "MyFunc"
+]

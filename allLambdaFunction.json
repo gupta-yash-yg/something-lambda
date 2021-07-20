@@ -1,0 +1,118 @@
+{
+    "Functions": [
+        {
+            "FunctionName": "historical-data-function",
+            "FunctionArn": "arn:aws:lambda:us-east-1:557151867487:function:historical-data-function",
+            "Runtime": "python3.8",
+            "Role": "arn:aws:iam::557151867487:role/lambda-ex",
+            "Handler": "script_historical_data.main",
+            "CodeSize": 11209380,
+            "Description": "",
+            "Timeout": 900,
+            "MemorySize": 800,
+            "LastModified": "2021-07-11T14:09:29.101+0000",
+            "CodeSha256": "Hblo7y+YrqU6Uy8AWOILv9Cnru1noXou5kFlriR8h/M=",
+            "Version": "$LATEST",
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "RevisionId": "218987bf-c2d0-417f-bc42-1b811bba238c",
+            "PackageType": "Zip"
+        },
+        {
+            "FunctionName": "mufun",
+            "FunctionArn": "arn:aws:lambda:us-east-1:557151867487:function:mufun",
+            "Runtime": "python3.8",
+            "Role": "arn:aws:iam::557151867487:role/service-role/mufun-role-an1zpt9t",
+            "Handler": "file1.f1",
+            "CodeSize": 206,
+            "Description": "",
+            "Timeout": 60,
+            "MemorySize": 128,
+            "LastModified": "2021-07-13T11:29:50.513+0000",
+            "CodeSha256": "Flqnw9J7Y6jXg8XjAt2sVSlKy5PwzVBzu6kUmXydlQE=",
+            "Version": "$LATEST",
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "RevisionId": "506a3c53-5c9f-4bb5-93f6-5cd063085666",
+            "PackageType": "Zip"
+        },
+        {
+            "FunctionName": "sam-app-Scrapper3-mzQKIrxGvRTt",
+            "FunctionArn": "arn:aws:lambda:us-east-1:557151867487:function:sam-app-Scrapper3-mzQKIrxGvRTt",
+            "Runtime": "python3.8",
+            "Role": "arn:aws:iam::557151867487:role/sam-app-Scrapper3Role-NQU8FR9PLWNC",
+            "Handler": "writer_3.lambda_handler",
+            "CodeSize": 9334699,
+            "Description": "",
+            "Timeout": 180,
+            "MemorySize": 512,
+            "LastModified": "2021-06-02T03:21:53.156+0000",
+            "CodeSha256": "5tjddgqrgrSFyEnmoUYfWNhzvzyMuxU9CXlt/6YRHnU=",
+            "Version": "$LATEST",
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "RevisionId": "c0ba06a5-90c6-4e14-92c1-a9f98d1ee696",
+            "PackageType": "Zip"
+        },
+        {
+            "FunctionName": "sam-app-Scrapper4-NDjwS011NbCT",
+            "FunctionArn": "arn:aws:lambda:us-east-1:557151867487:function:sam-app-Scrapper4-NDjwS011NbCT",
+            "Runtime": "python3.8",
+            "Role": "arn:aws:iam::557151867487:role/sam-app-Scrapper4Role-1GGOQVUGBEJY4",
+            "Handler": "writer_4.lambda_handler",
+            "CodeSize": 9334699,
+            "Description": "",
+            "Timeout": 900,
+            "MemorySize": 3072,
+            "LastModified": "2021-06-02T03:21:53.189+0000",
+            "CodeSha256": "5tjddgqrgrSFyEnmoUYfWNhzvzyMuxU9CXlt/6YRHnU=",
+            "Version": "$LATEST",
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "RevisionId": "474d99fd-ec02-4eb0-8bcb-7595b357d6b2",
+            "PackageType": "Zip"
+        },
+        {
+            "FunctionName": "sam-app-Scrapper2-twW8AZ3xUeNk",
+            "FunctionArn": "arn:aws:lambda:us-east-1:557151867487:function:sam-app-Scrapper2-twW8AZ3xUeNk",
+            "Runtime": "python3.8",
+            "Role": "arn:aws:iam::557151867487:role/sam-app-Scrapper2Role-10B5SLTQZX7LA",
+            "Handler": "writer_2.lambda_handler",
+            "CodeSize": 9334699,
+            "Description": "",
+            "Timeout": 900,
+            "MemorySize": 512,
+            "LastModified": "2021-06-02T03:21:53.121+0000",
+            "CodeSha256": "5tjddgqrgrSFyEnmoUYfWNhzvzyMuxU9CXlt/6YRHnU=",
+            "Version": "$LATEST",
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "RevisionId": "a8034b95-255b-49f4-9bfe-ad36417a99b8",
+            "PackageType": "Zip"
+        },
+        {
+            "FunctionName": "MyFunc",
+            "FunctionArn": "arn:aws:lambda:us-east-1:557151867487:function:MyFunc",
+            "Runtime": "python3.7",
+            "Role": "arn:aws:iam::557151867487:role/MyLambdaRole",
+            "Handler": "test.f1",
+            "CodeSize": 256,
+            "Description": "",
+            "Timeout": 3,
+            "MemorySize": 128,
+            "LastModified": "2021-07-14T12:03:26.041+0000",
+            "CodeSha256": "om2h2ccTV9HQnUVxJyFbrg3SO0P9BYAwDNz7i35MOaw=",
+            "Version": "$LATEST",
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "RevisionId": "528e1899-9012-4e98-b447-e9d2746bd7e2",
+            "PackageType": "Zip"
+        }
+    ]
+}

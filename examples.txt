@@ -1,0 +1,13 @@
+MyFunc
+python3.7
+testlambda.zip
+test.f1
+{ "name": "Bob" }
+
+aws-lambda-test
+aws-lambda-test
+yogesh174
+node
+
+Add
+[java8, java11, nodejs10.x, nodejs12.x, python2.7, python3.6, python3.7, python3.8, dotnetcore2.1, go1.x, ruby2.5]
